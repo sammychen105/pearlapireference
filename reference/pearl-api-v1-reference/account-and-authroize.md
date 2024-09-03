@@ -4,7 +4,7 @@
 
 post POST integrations
 
-<font size=1>GET</font> GET
+<font size=5>GET</font> GET
 
 
 
