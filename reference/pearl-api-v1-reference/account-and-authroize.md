@@ -13,7 +13,7 @@
 
 **Body**
 
-[data-models.md](data-models.md "mention")
+[#did-document](data-models.md#did-document "mention")
 
 **Request Body Example**
 
