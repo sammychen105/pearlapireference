@@ -20,9 +20,9 @@
 
 **Response**
 
-| Field   | Type   | Desc                  |
-| ------- | ------ | --------------------- |
-| code    | String | <p><br></p>           |
-| message | String | <p><br></p>           |
-| data    | String | <p>avatar url<br></p> |
+| Field | Type   | Desc                  |
+| ----- | ------ | --------------------- |
+| code  | String | <p><br></p>           |
+| msg   | String | <p><br></p>           |
+| data  | String | <p>avatar url<br></p> |
 

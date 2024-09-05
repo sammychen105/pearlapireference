@@ -25,11 +25,11 @@
 
 **Response**
 
-| Field   | Type                                                  | Desc        |
-| ------- | ----------------------------------------------------- | ----------- |
-| code    | String                                                | <p><br></p> |
-| message | String                                                | <p><br></p> |
-| data    | [AgentCreationResp](data-models.md#agentcreationresp) | <p><br></p> |
+| Field | Type                                                  | Desc        |
+| ----- | ----------------------------------------------------- | ----------- |
+| code  | String                                                | <p><br></p> |
+| msg   | String                                                | <p><br></p> |
+| data  | [AgentCreationResp](data-models.md#agentcreationresp) | <p><br></p> |
 
 ## Update Agent
 
@@ -55,11 +55,11 @@
 
 **Response**
 
-| Field   | Type                                         | Desc        |
-| ------- | -------------------------------------------- | ----------- |
-| code    | String                                       | <p><br></p> |
-| message | String                                       | <p><br></p> |
-| data    | [UpdateResp](data-models.md#agentupdateresp) | <p><br></p> |
+| Field | Type                                         | Desc        |
+| ----- | -------------------------------------------- | ----------- |
+| code  | String                                       | <p><br></p> |
+| msg   | String                                       | <p><br></p> |
+| data  | [UpdateResp](data-models.md#agentupdateresp) | <p><br></p> |
 
 ## Get Agent
 
@@ -80,9 +80,9 @@
 
 **Response**
 
-| Field   | Type                                              | Desc        |
-| ------- | ------------------------------------------------- | ----------- |
-| code    | String                                            | <p><br></p> |
-| message | String                                            | <p><br></p> |
-| data    | [AgentUpdateResp](data-models.md#agentupdateresp) | <p><br></p> |
+| Field | Type                                              | Desc        |
+| ----- | ------------------------------------------------- | ----------- |
+| code  | String                                            | <p><br></p> |
+| msg   | String                                            | <p><br></p> |
+| data  | [AgentUpdateResp](data-models.md#agentupdateresp) | <p><br></p> |
 

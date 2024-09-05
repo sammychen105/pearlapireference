@@ -19,5 +19,5 @@
 
 **Response**
 
-<table><thead><tr><th width="193">Field</th><th>Type</th><th>Desc</th></tr></thead><tbody><tr><td>code</td><td>String</td><td><br></td></tr><tr><td>message</td><td>String</td><td><br></td></tr><tr><td>data</td><td><a href="data-models.md#voicetranscriberesp">VoiceTranscribeResp</a></td><td><br></td></tr></tbody></table>
+<table><thead><tr><th width="193">Field</th><th>Type</th><th>Desc</th></tr></thead><tbody><tr><td>code</td><td>String</td><td><br></td></tr><tr><td>msg</td><td>String</td><td><br></td></tr><tr><td>data</td><td><a href="data-models.md#voicetranscriberesp">VoiceTranscribeResp</a></td><td><br></td></tr></tbody></table>
 

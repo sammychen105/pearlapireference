@@ -45,7 +45,7 @@
 
 **Response**
 
-<table><thead><tr><th width="193">Field</th><th>Type</th><th>Desc</th></tr></thead><tbody><tr><td>code</td><td>String</td><td><br></td></tr><tr><td>message</td><td>String</td><td><br></td></tr><tr><td>data</td><td>String</td><td><br></td></tr></tbody></table>
+<table><thead><tr><th width="193">Field</th><th>Type</th><th>Desc</th></tr></thead><tbody><tr><td>code</td><td>String</td><td><br></td></tr><tr><td>msg</td><td>String</td><td><br></td></tr><tr><td>data</td><td>String</td><td><br></td></tr></tbody></table>
 
 ## Update DID
 
@@ -68,11 +68,11 @@
 
 **Response**
 
-| Field   | Type                                        | Desc        |
-| ------- | ------------------------------------------- | ----------- |
-| code    | String                                      | <p><br></p> |
-| message | String                                      | <p><br></p> |
-| data    | [DID Document](data-models.md#did-document) | <p><br></p> |
+| Field | Type                                        | Desc        |
+| ----- | ------------------------------------------- | ----------- |
+| code  | String                                      | <p><br></p> |
+| msg   | String                                      | <p><br></p> |
+| data  | [DID Document](data-models.md#did-document) | <p><br></p> |
 
 ## Deactivation DID
 
@@ -95,11 +95,11 @@
 
 **Response**
 
-| Field   | Type   | Desc        |
-| ------- | ------ | ----------- |
-| code    | String | <p><br></p> |
-| message | String | <p><br></p> |
-| data    | String | <p><br></p> |
+| Field | Type   | Desc        |
+| ----- | ------ | ----------- |
+| code  | String | <p><br></p> |
+| msg   | String | <p><br></p> |
+| data  | String | <p><br></p> |
 
 ## DID Resolution
 
@@ -120,11 +120,11 @@
 
 **Response**
 
-| Field   | Type                                        | Desc        |
-| ------- | ------------------------------------------- | ----------- |
-| code    | String                                      | <p><br></p> |
-| message | String                                      | <p><br></p> |
-| data    | [DID Document](data-models.md#did-document) | <p><br></p> |
+| Field | Type                                        | Desc        |
+| ----- | ------------------------------------------- | ----------- |
+| code  | String                                      | <p><br></p> |
+| msg   | String                                      | <p><br></p> |
+| data  | [DID Document](data-models.md#did-document) | <p><br></p> |
 
 ## DID Auth
 
@@ -147,11 +147,11 @@
 
 **Response**
 
-| Field   | Type                                        | Desc        |
-| ------- | ------------------------------------------- | ----------- |
-| code    | String                                      | <p><br></p> |
-| message | String                                      | <p><br></p> |
-| data    | [DID Auth Resp](data-models.md#didauthresp) | <p><br></p> |
+| Field | Type                                        | Desc        |
+| ----- | ------------------------------------------- | ----------- |
+| code  | String                                      | <p><br></p> |
+| msg   | String                                      | <p><br></p> |
+| data  | [DID Auth Resp](data-models.md#didauthresp) | <p><br></p> |
 
 
 

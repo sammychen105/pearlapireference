@@ -21,11 +21,11 @@
 
 **Response**
 
-| Field   | Type                                            | Desc        |
-| ------- | ----------------------------------------------- | ----------- |
-| code    | String                                          | <p><br></p> |
-| message | String                                          | <p><br></p> |
-| data    | [UploadFileResp](data-models.md#uploadfileresp) |             |
+| Field | Type                                            | Desc        |
+| ----- | ----------------------------------------------- | ----------- |
+| code  | String                                          | <p><br></p> |
+| msg   | String                                          | <p><br></p> |
+| data  | [UploadFileResp](data-models.md#uploadfileresp) |             |
 
 ## Generate Download Url
 
@@ -48,9 +48,9 @@
 
 **Response**
 
-| Field   | Type   | Desc             |
-| ------- | ------ | ---------------- |
-| code    | String | <p><br></p>      |
-| message | String | <p><br></p>      |
-| data    | String | Oss download url |
+| Field | Type   | Desc             |
+| ----- | ------ | ---------------- |
+| code  | String | <p><br></p>      |
+| msg   | String | <p><br></p>      |
+| data  | String | Oss download url |
 

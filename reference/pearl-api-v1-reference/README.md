@@ -1,23 +1,11 @@
 # Pearl API v1 Reference
 
-Dive into the specifics of each API endpoint by checking out our complete documentation.
+## Endpoints
 
-## Pets
+### Test Env
 
-All the methods associated with `CRUD`ing some pets. Which isn't as weird as it sounds:
+`https://api-test.birdkiwi.com`
 
-{% content-ref url="examples/pets-examples.md" %}
-[pets-examples.md](examples/pets-examples.md)
-{% endcontent-ref %}
+### Online Env
 
-## Users
-
-Everything related to users:
-
-{% content-ref url="examples/users-examples.md" %}
-[users-examples.md](examples/users-examples.md)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-**Good to know:** Using the 'Page Link' block lets you link directly to a page. If this page's name, URL or parent location changes, the reference will be kept up to date. You can also mention a page – like [pets-examples.md](examples/pets-examples.md "mention") – if you don't want a block-level link.
-{% endhint %}
+`https://api.birdkiwi.com`

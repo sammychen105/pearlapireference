@@ -12,7 +12,4 @@
   * [Voice](reference/pearl-api-v1-reference/voice-video.md)
   * [Avatar](reference/pearl-api-v1-reference/avatar.md)
   * [Files](reference/pearl-api-v1-reference/files.md)
-  * [Examples](reference/pearl-api-v1-reference/examples/README.md)
-    * [Pets - examples](reference/pearl-api-v1-reference/examples/pets-examples.md)
-    * [Users - examples](reference/pearl-api-v1-reference/examples/users-examples.md)
   * [Data Models](reference/pearl-api-v1-reference/data-models.md)
