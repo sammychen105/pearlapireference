@@ -100,4 +100,9 @@ did:example:123#public-key-0
 | text     | String | <p><br></p> |
 | language | String | <p><br></p> |
 
-###
+### DIDAuthResp
+
+| Field         | Type   | Desc                      |
+| ------------- | ------ | ------------------------- |
+| access\_token | String | <p><br></p>               |
+| expire\_time  | long   | <p>time in second<br></p> |

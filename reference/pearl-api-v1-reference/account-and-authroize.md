@@ -87,11 +87,11 @@
 
 **Body**
 
-| Field     | Type   | Optional | Desc                        |
-| --------- | ------ | -------- | --------------------------- |
-| did       | String | no       | User did                    |
-| timestamp | String | no       | signature using private key |
-| signature | String | no       | <p><br></p>                 |
+| Field     | Type   | Optional | Desc                                   |
+| --------- | ------ | -------- | -------------------------------------- |
+| did       | String | no       | User did                               |
+| timestamp | String | no       | time in second                         |
+| signature | String | no       | <p>signature using private key<br></p> |
 
 **Response**
 
@@ -139,19 +139,19 @@
 
 **Body**
 
-| Field     | Type   | Optional | Desc                        |
-| --------- | ------ | -------- | --------------------------- |
-| did       | String | no       | User did                    |
-| timestamp | String | no       | signature using private key |
-| signature | String | no       | <p><br></p>                 |
+| Field     | Type   | Optional | Desc                                   |
+| --------- | ------ | -------- | -------------------------------------- |
+| did       | String | no       | User did                               |
+| timestamp | String | no       | time in second                         |
+| signature | String | no       | <p>signature using private key<br></p> |
 
 **Response**
 
-| Field   | Type   | Desc        |
-| ------- | ------ | ----------- |
-| code    | String | <p><br></p> |
-| message | String | <p><br></p> |
-| data    |        | <p><br></p> |
+| Field   | Type                                        | Desc        |
+| ------- | ------------------------------------------- | ----------- |
+| code    | String                                      | <p><br></p> |
+| message | String                                      | <p><br></p> |
+| data    | [DID Auth Resp](data-models.md#didauthresp) | <p><br></p> |
 
 
 
