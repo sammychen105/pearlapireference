@@ -13,23 +13,23 @@
 
 **Body**
 
-| Field           | Type                                                                                                                | Optional | Desc         |
-| --------------- | ------------------------------------------------------------------------------------------------------------------- | -------- | ------------ |
-| did             | String                                                                                                              | no       | User did     |
-| name            | String                                                                                                              | no       | Agent's name |
-| gender          | String                                                                                                              | no       | Famale/Male  |
-| age             | Integer                                                                                                             | no       | <p><br></p>  |
-| hobbies         | String                                                                                                              | no       | <p><br></p>  |
-| experience      | String                                                                                                              | no       | <p><br></p>  |
-| perl\_questions | list\[[QuetionContent](https://z0hqbo7agth.feishu.cn/wiki/I246wMeT6irdhkk5ES4cPwqZn9c#K1ucd8gaioWx80xp86Ac2KOhnsc)] | no       | <p><br></p>  |
+| Field           | Type                                                    | Optional | Desc         |
+| --------------- | ------------------------------------------------------- | -------- | ------------ |
+| did             | String                                                  | no       | User did     |
+| name            | String                                                  | no       | Agent's name |
+| gender          | String                                                  | no       | Famale/Male  |
+| age             | Integer                                                 | no       | <p><br></p>  |
+| hobbies         | String                                                  | no       | <p><br></p>  |
+| experience      | String                                                  | no       | <p><br></p>  |
+| perl\_questions | list\[[QuetionContent](data-models.md#questioncontent)] | no       | <p><br></p>  |
 
 **Response**
 
-| Field   | Type                                                                                                            | Desc        |
-| ------- | --------------------------------------------------------------------------------------------------------------- | ----------- |
-| code    | String                                                                                                          | <p><br></p> |
-| message | String                                                                                                          | <p><br></p> |
-| data    | [AgentCreationResp](https://z0hqbo7agth.feishu.cn/wiki/I246wMeT6irdhkk5ES4cPwqZn9c#QnHVdj8cYo8XoXxdwEJcqEFMnfd) | <p><br></p> |
+| Field   | Type                                                  | Desc        |
+| ------- | ----------------------------------------------------- | ----------- |
+| code    | String                                                | <p><br></p> |
+| message | String                                                | <p><br></p> |
+| data    | [AgentCreationResp](data-models.md#agentcreationresp) | <p><br></p> |
 
 ## Update Agent
 
@@ -55,11 +55,11 @@
 
 **Response**
 
-| Field   | Type                                                                                                          | Desc        |
-| ------- | ------------------------------------------------------------------------------------------------------------- | ----------- |
-| code    | String                                                                                                        | <p><br></p> |
-| message | String                                                                                                        | <p><br></p> |
-| data    | [Agent](https://z0hqbo7agth.feishu.cn/wiki/I246wMeT6irdhkk5ES4cPwqZn9c#QnHVdj8cYo8XoXxdwEJcqEFMnfd)UpdateResp | <p><br></p> |
+| Field   | Type                                         | Desc        |
+| ------- | -------------------------------------------- | ----------- |
+| code    | String                                       | <p><br></p> |
+| message | String                                       | <p><br></p> |
+| data    | [UpdateResp](data-models.md#agentupdateresp) | <p><br></p> |
 
 ## Get Agent
 
@@ -80,9 +80,9 @@
 
 **Response**
 
-| Field   | Type   | Desc        |
-| ------- | ------ | ----------- |
-| code    | String | <p><br></p> |
-| message | String | <p><br></p> |
-| data    |        | <p><br></p> |
+| Field   | Type                                              | Desc        |
+| ------- | ------------------------------------------------- | ----------- |
+| code    | String                                            | <p><br></p> |
+| message | String                                            | <p><br></p> |
+| data    | [AgentUpdateResp](data-models.md#agentupdateresp) | <p><br></p> |
 

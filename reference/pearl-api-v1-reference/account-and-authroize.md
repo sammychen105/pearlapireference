@@ -1,6 +1,6 @@
 # Account and Authroize
 
-## Create Pearl ID
+## Create DID
 
 <mark style="color:green;">`POST`</mark> `/auth/api/v1/did/create`
 
@@ -45,22 +45,131 @@
 
 **Response**
 
-{% tabs %}
-{% tab title="200" %}
-```json
-{
-  "code": 200,
-  "data": "success"
-}
-```
-{% endtab %}
+<table><thead><tr><th width="193">Field</th><th>Type</th><th>Desc</th></tr></thead><tbody><tr><td>code</td><td>String</td><td><br></td></tr><tr><td>message</td><td>String</td><td><br></td></tr><tr><td>data</td><td>String</td><td><br></td></tr></tbody></table>
 
-{% tab title="400" %}
-```json
-{
-  "error": "Invalid request"
-}
-```
-{% endtab %}
-{% endtabs %}
+## Update DID
+
+<mark style="color:blue;">`PUT`</mark> `/auth/api/v1/did/update`
+
+**Headers**
+
+| Name          | Value                |
+| ------------- | -------------------- |
+| Content-Type  | `application/json`   |
+| Authorization | `Bearer <APP_TOKEN>` |
+
+**Body**
+
+| Field     | Type                                            | Optional | Desc        |
+| --------- | ----------------------------------------------- | -------- | ----------- |
+| did       | [DID Definition](data-models.md#did-definition) | no       | User did    |
+| document  | [DID Document](data-models.md#did-document)     | no       | <p><br></p> |
+| timestamp | Millisecond timestamp                           | no       | <p><br></p> |
+
+**Response**
+
+| Field   | Type                                        | Desc        |
+| ------- | ------------------------------------------- | ----------- |
+| code    | String                                      | <p><br></p> |
+| message | String                                      | <p><br></p> |
+| data    | [DID Document](data-models.md#did-document) | <p><br></p> |
+
+## Deactivation DID
+
+`DELETE` `/auth/api/v1/did/deactivate`
+
+**Headers**
+
+| Name          | Value                |
+| ------------- | -------------------- |
+| Content-Type  | `application/json`   |
+| Authorization | `Bearer <APP_TOKEN>` |
+
+**Body**
+
+| Field     | Type   | Optional | Desc                        |
+| --------- | ------ | -------- | --------------------------- |
+| did       | String | no       | User did                    |
+| timestamp | String | no       | signature using private key |
+| signature | String | no       | <p><br></p>                 |
+
+**Response**
+
+| Field   | Type   | Desc        |
+| ------- | ------ | ----------- |
+| code    | String | <p><br></p> |
+| message | String | <p><br></p> |
+| data    | String | <p><br></p> |
+
+## DID Resolution
+
+<mark style="color:blue;">`GET`</mark> `/auth/api/v1/did/resolve/{did}`
+
+**Headers**
+
+| Name          | Value                |
+| ------------- | -------------------- |
+| Content-Type  | `application/json`   |
+| Authorization | `Bearer <APP_TOKEN>` |
+
+**Path Variable**
+
+| Field | Type   | Optional | Desc |
+| ----- | ------ | -------- | ---- |
+| `did` | String | no       | did  |
+
+**Response**
+
+| Field   | Type                                        | Desc        |
+| ------- | ------------------------------------------- | ----------- |
+| code    | String                                      | <p><br></p> |
+| message | String                                      | <p><br></p> |
+| data    | [DID Document](data-models.md#did-document) | <p><br></p> |
+
+## DID Auth
+
+<mark style="color:blue;">`POST`</mark> `/auth/api/v1/did/auth`
+
+**Headers**
+
+| Name          | Value                |
+| ------------- | -------------------- |
+| Content-Type  | `application/json`   |
+| Authorization | `Bearer <APP_TOKEN>` |
+
+**Body**
+
+| Field     | Type   | Optional | Desc                        |
+| --------- | ------ | -------- | --------------------------- |
+| did       | String | no       | User did                    |
+| timestamp | String | no       | signature using private key |
+| signature | String | no       | <p><br></p>                 |
+
+**Response**
+
+| Field   | Type   | Desc        |
+| ------- | ------ | ----------- |
+| code    | String | <p><br></p> |
+| message | String | <p><br></p> |
+| data    |        | <p><br></p> |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

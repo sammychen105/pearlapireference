@@ -19,9 +19,5 @@
 
 **Response**
 
-| Field   | Type                                                                                                              | Desc        |
-| ------- | ----------------------------------------------------------------------------------------------------------------- | ----------- |
-| code    | String                                                                                                            | <p><br></p> |
-| message | String                                                                                                            | <p><br></p> |
-| data    | [VoiceTranscribeResp](https://z0hqbo7agth.feishu.cn/wiki/I246wMeT6irdhkk5ES4cPwqZn9c#OpaAdP7T3oPidsxhcGScpHeVnxb) | <p><br></p> |
+<table><thead><tr><th width="193">Field</th><th>Type</th><th>Desc</th></tr></thead><tbody><tr><td>code</td><td>String</td><td><br></td></tr><tr><td>message</td><td>String</td><td><br></td></tr><tr><td>data</td><td><a href="data-models.md#voicetranscriberesp">VoiceTranscribeResp</a></td><td><br></td></tr></tbody></table>
 
