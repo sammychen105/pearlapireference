@@ -29,7 +29,7 @@
 
 ## Generate Download Url
 
-<mark style="color:blue;">`POST`</mark> `/files/api/v1/files/gen_upload_presign_url`
+<mark style="color:blue;">`POST`</mark> `/files/api/v1/files/gen_download_presign_url`
 
 **Headers**
 
@@ -40,11 +40,9 @@
 
 **Body**
 
-| Field      | Type   | Optional | Desc                                       |
-| ---------- | ------ | -------- | ------------------------------------------ |
-| did        | String | no       |                                            |
-| file\_type | String | no       | Current support: audio / image             |
-| scope      | String | yes      | private / public-read . default is private |
+| Field    | Type   | Optional | Desc |
+| -------- | ------ | -------- | ---- |
+| file\_id | String | no       |      |
 
 **Response**
 
