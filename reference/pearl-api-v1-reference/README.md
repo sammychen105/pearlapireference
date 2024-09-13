@@ -4,8 +4,8 @@
 
 ### Test Env
 
-`https://api-test.birdkiwi.com`
+`https://api-test.kiwilightyear.com`
 
 ### Online Env
 
-`https://api.birdkiwi.com`
+`https://api.kiwilightyear.com`
